@@ -1,0 +1,187 @@
+/* ----------------------------------------------------------
+   MOBILE & TABLET ONLY RESPONSIVE STYLES
+   (Desktop stays EXACTLY the same — untouched)
+   Breakpoints:
+   Mobile: 0–599px
+   Tablet: 600–899px
+---------------------------------------------------------- */
+
+
+/* ===========================
+   MOBILE  (max-width: 599px)
+=========================== */
+@media (max-width: 599px) {
+
+  /* Body padding */
+  body {
+    padding: 0 10px;
+  }
+
+  /* Header area */
+  .main-ttl-wrap {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .top-menu {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  /* Logo */
+  .img-logo1 {
+    width: 44px;
+    height: 44px;
+  }
+
+  /* Search bar */
+  .search-wrap {
+    width: 100%;
+  }
+  .search {
+    width: 100%;
+  }
+
+  /* Navigation (menu-wrap / left-menu) */
+  .left-menu {
+    overflow-x: auto;
+    gap: 10px;
+    padding-bottom: 4px;
+  }
+
+  .left-menu .nav-item {
+    white-space: nowrap;
+    padding: 8px 12px;
+  }
+
+  /* Secondary navbar */
+  .navbar ul {
+    overflow-x: auto;
+    gap: 6px;
+  }
+
+  .navbar .list-item {
+    padding: 8px 12px;
+    white-space: nowrap;
+  }
+
+  /* Hero image */
+  .menu-wrap3 .img-content {
+    height: 170px;
+  }
+
+  /* Cards / Grid to 1 column */
+  .mid-content.grid2,
+  .mid-content.w1170.grid2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  /* Gallery grids */
+  .mid-con-grid4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .mid-con-grid3,
+  .mid-con-grid2 {
+    grid-template-columns: 1fr;
+  }
+
+  /* Images */
+  .img-content,
+  .img-content2 {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Hide print helpers */
+  .page-break {
+    display: none;
+  }
+}
+
+
+/* ===========================
+   TABLET  (600px–899px)
+=========================== */
+@media (min-width: 600px) and (max-width: 899px) {
+
+  /* Header layout */
+  .main-ttl-wrap {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .top-menu {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .img-logo1 {
+    width: 52px;
+    height: 52px;
+  }
+
+  /* Search wider */
+  .search {
+    width: 260px;
+  }
+
+  /* Navigation */
+  .left-menu {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .navbar ul {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  /* Hero image */
+  .menu-wrap3 .img-content {
+    height: 260px;
+  }
+
+  /* Cards 2-column only on tablet */
+  .mid-content.grid2,
+  .mid-content.w1170.grid2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+
+  /* Gallery grids */
+  .mid-con-grid4 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .mid-con-grid3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .mid-con-grid2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Images */
+  .img-content,
+  .img-content2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .page-break {
+    display: none;
+  }
+}
+
+
+/* ===========================
+   DESKTOP (900px+) 
+============================= */
+/* NO CHANGES — desktop remains exactly the same */

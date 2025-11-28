@@ -1,0 +1,133 @@
+/* TABLET */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .top-menu-wrap .top-menu .left-menu{
+    display: none;
+  }
+.right-nav-bar .display_hide{
+    display: block;
+  }
+  .top-menu-wrap{
+    height: 60px;
+  }
+  .main-ttl-wrap .top-menu .left-menu{
+    justify-content: space-evenly;
+  }
+  .nav-item {
+    font-size: 13px;
+  }
+  .social-logo{
+    display: none;
+  }
+  .logo2{
+    display: none;
+  }
+  .img-logo1{
+    height: 70px;
+  }
+  .left-menu span{
+    font-size: 18px;
+  }
+  .mg-top {
+    margin-top: 20px;
+  }
+  .top-menu-wrap .top-menu {
+    /* height: 55px; */
+    flex-direction: row-reverse;
+  }
+  .navbar ul li {
+    font-size: 14px;
+  }
+  a .fa-solid, a .fa {
+    display: none;
+  }
+  .brown_ttl {
+    font-size: 36px;
+  }
+  .mid-content {
+    width: 90%;
+    height: 90%;
+  }
+  .grid-item {
+    height: 85%;
+  }
+  .img-content {
+    /* border-radius: 10px; */
+  }
+  .grid-item1 {
+    height: 85%;
+  }
+  .content-ttl{
+    left: 20px;
+    height: auto;
+    width: auto;
+  }
+  .content-ttl .p2{
+    width: 80%;
+    height: 40px;
+  }
+  .mid-menu-wrap{
+    height: 400px;
+    padding-bottom: 0;
+    margin-top: 0px;
+  }
+  .below-gray-bg {
+    height: 348px;
+    width: 100%;
+  }
+  .in-gray-cont2 {
+    height: 57%;
+  }
+  .grid-item2 .mid-hover, .grid-item2 .mid-hide{
+    font-size: 14px;
+    color: #575757;
+    display: block;
+    /* font-family: "Dosis", sans-serif; */
+  }
+  .grid-item .img_food{
+    max-height: 103px;
+    width: 100%;
+  }
+  .nav-border:not(:last-child) {
+    border-right: none;
+}
+.navbar ul li {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.footer{
+  width: 100%;
+}
+.mid-c-grid2{
+  max-width: 877.5px;
+}
+
+
+
+/* SMARTPHONE */
+@media only screen and (min-width: 0px) and (max-width: 767px){
+  .top-menu-wrap .top-menu .dropdown-menu{
+    display: block;
+  }
+  .top-menu-wrap .top-menu .left-menu{
+    display: none;
+  }
+  .right-nav-bar{
+    width: 100%;
+  }
+  .social-logo {
+    display: none;
+  }
+  .main-ttl-wrap{
+    justify-content: space-between;
+  }
+  .main-ttl-wrap .top-menu{
+    margin:  auto;
+  }
+  .main-ttl-wrap .top-menu .left-menu span{
+    font-size: 20px;
+    margin-right: 20px;
+  }
+  .main-ttl-wrap .top-menu .left-menu .img-logo1{
+    height: 70px;
+  }
+}

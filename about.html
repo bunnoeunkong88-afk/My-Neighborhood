@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/sabay.css" />
+    <link rel="stylesheet" href="css/curve_active_menu.css">
+    <link rel="stylesheet" href="css/underline_active.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta charset="UTF-8" />
+    <title>About</title>
+    <script 
+      src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">  
+    </script>  
+    <link rel = "stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="https://kit.fontawesome.com/730b4652f5.js"crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style></style>
+  </head>
+  <body>
+    <main>
+      <div class="top-menu-wrap">
+        <div class="top-menu">
+          <ul class="left-menu">
+            <li class="nav-item nav-border"><a href="index.html"><i class = "fa fa-home"></i>Home</a></li>
+            <li class="nav-item nav-border">
+              <a href="place-to-go.html">
+                  <i class="fa-solid fa-location-dot"></i> <span class="pointed">Place to Visit</span> 
+              </a>
+            </li>
+            <li class="nav-item nav-border"><a href="history.html"><i class="fa-solid fa-lightbulb"></i>Histroy</a></li>
+            <!-- <li class="nav-item nav-border"><a><i class="fa-solid fa-hotel"></i>Hotel</a></li> -->
+            <!-- <li class="nav-item nav-border"><a href="gallery.html"><i class = "fa fa-image"></i>Gallery</a></li> -->
+            <li class="nav-item nav-border active_un"><a href="about.html"><i class="fa-solid fa-address-card"></i>About Me</a></li>
+            <!-- <li class="nav-item nav-border"><a href="contact.html"><i class = "fa fa-phone color_white"></i></i>Contact</a></li> -->
+          </ul>
+          
+        </div>
+      </div>
+    </main>
+    
+  
+    <div class="main-ttl-wrap mg-top mgb-30">
+      <div class="top-menu ff1 fs20 flex fd-col">
+        <h2>About Me</h2>
+        <p class="mgt-10 t-indent">
+          Hello! My name is Bunnoeun, and I am currently a student exploring new experiences through my academic work. This field trip project gave me an opportunity to learn outside the classroom and connect what I’ve studied to real-world environments. I enjoy observing new places, documenting what I see, and reflecting on how these experiences shape my understanding of the world around me.  
+        </p>
+        <p class="mgt-10 t-indent">
+          During this field trip, I focused on engaging with the community, paying attention to the details of the location, and capturing meaningful photographs that tell the story of my visit. I value learning by doing, and I believe that every experience big or small helps me grow personally and academically.
+        </p>
+        <p class="mgt-10 t-indent">Through this website, I hope to share my work, highlight what I learned, and provide a clear and thoughtful presentation of my field trip project. Thank you for taking the time to read about my experience!</p>
+      </div>
+    </div>
+    
+    <!-- Learn Morre  -->
+     <div class="btm-ttl-wrap blue">  
+    </div>
+    
+     <div class="gray-bg">
+      <div class="last-btm">
+        <div class="btm-content">Prepared by: Bunnoeun</div>
+        <div class="btm-content">
+        </div>
+      </div>
+    </div>
+    <!-- <script src="js/script.js"></script> -->
+    <script> 
+    //   $(function () {  
+    //       $("li").click(function (e) {  
+    //           e.preventDefault();  
+    //           $("li").removeClass("active");  
+    //           $(this).addClass("active");  
+    //       });  
+    //   });  
+       
+
+    //   document.addEventListener('DOMContentLoaded',
+    // function () {
+    //     const navItems = document.querySelectorAll(".nav-item");
+    //     navItems.forEach(item => {
+    //         item.addEventListener('click',function () {
+    //                 navItems.forEach(navItem => navItem
+    //                     .classList.remove('active_un'));
+    //                 this.classList.add('active_un');
+    //             });
+    //     });
+    // });
+      
+  </script>  
+  <script>
+        const button = document.querySelector('.read-more-btn');
+        const mc = document.querySelector('.mc');
+
+        button.addEventListener('click', () => {
+            if (mc.classList.contains('hidden')) {
+                mc.classList.remove('hidden');
+                button.textContent = 'Show Less';
+            } else {
+                mc.classList.add('hidden');
+                button.textContent = 'Show More';
+            }
+        });
+    </script>
+  </body>
+</html>
